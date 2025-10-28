@@ -13,7 +13,7 @@ To install Rinvex Cortex, just clone it.
 # Fresh Installation
 
 Before you start working with this project, make sure you're familiar with the modular architecture of our system. The steps is straight forward and should be easy to implement.
-It's supposed that you're running homestead on vagrant machine, with the default setup, using PHP 7.1+ and MySQL 5.7.8+, or any similar environment like [rinvex/punnet](https://github.com/rinvex/punnet).
+It's supposed that you're running homestead on vagrant machine, with the default setup, using PHP 8.1+ and MySQL 5.7.8+, or any similar environment like [rinvex/punnet](https://github.com/rinvex/punnet).
 If you follow the steps below, you should get it done in less than 10 minutes regardless of your experience level.
 **Make sure to create a new database for the new project**, and ensure you've local domain ready you can use.
 
