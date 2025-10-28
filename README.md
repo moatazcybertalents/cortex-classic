@@ -39,7 +39,7 @@ Install the project
 
 ```
 composer i
-php artisan cortex:install
+php artisan cortex:install (if it fails for any reason and you will run it again, you should drop the database first)
 npm install
 npm run dev
 ```
