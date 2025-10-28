@@ -39,6 +39,7 @@ Install the project
 
 ```
 composer i
+php artisan rinvex:migrate:tags
 php artisan cortex:install (if it fails for any reason and you will run it again, you should drop the database first)
 npm install
 npm run dev
@@ -73,3 +74,8 @@ zlib.output_compression = off
 
 Notes:
 - If you changed any `.env` environment variables, or any of their references, make sure to run `npm run dev` to update the public assets, as it reference some of it.
+
+## Task
+Add a posts and comments feature under app/modules/cortex/boards.
+Members should be able to create posts and add comments on those posts.
+The board owner must have the ability to delete any post or any comment on his posts.
